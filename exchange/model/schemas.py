@@ -57,7 +57,7 @@ def find_env_file():
 env_path = find_env_file()
 
 
-CRYPTO_EXCHANGES = ("BINANCE", "UPBIT", "BYBIT", "BITGET", "OKX")
+CRYPTO_EXCHANGES = ("BINANCE", "UPBIT", "BYBIT", "BITGET", "OKX", "GATEIO")
 
 STOCK_EXCHANGES = (
     "KRX",
@@ -119,6 +119,8 @@ class Settings(BaseSettings):
     KIS4_ACCOUNT_CODE: str | None = None
     KIS4_KEY: str | None = None
     KIS4_SECRET: str | None = None
+    GATEIO_KEY: str | None = None
+    GATEIO_SECRET: str | None = None
     DB_ID: str = "poa@admin.com"
     DB_PASSWORD: str = "poabot!@#$"
 
