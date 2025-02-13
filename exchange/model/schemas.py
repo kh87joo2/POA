@@ -5,7 +5,7 @@ from pathlib import Path
 from enum import Enum
 from devtools import debug
 
-CRYPTO_LITERAL = Literal["BINANCE", "UPBIT", "BYBIT", "BITGET", "OKX"]
+CRYPTO_LITERAL = Literal["BINANCE", "UPBIT", "BYBIT", "BITGET", "OKX", "GATEIO"]
 
 
 STOCK_LITERAL = Literal[
