@@ -22,6 +22,7 @@ EXCHANGE_LITERAL = Literal[
     "BYBIT",
     "BITGET",
     "OKX",
+    "GATEIO",
     "KRX",
     "NASDAQ",
     "NYSE",
